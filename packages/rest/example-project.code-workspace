@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../sites/example-project"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}

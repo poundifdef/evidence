@@ -1,0 +1,18 @@
+{
+	"name": "@evidence-dev/rest",
+	"version": "1.2.1",
+	"description": "REST driver for Evidence projects",
+	"main": "index.cjs",
+	"author": "Jay Goel",
+	"license": "MIT",
+	"scripts": {
+		"test": "uvu test test.js"
+	},
+	"dependencies": {
+		"@evidence-dev/db-commons": "workspace:^"
+	},
+	"devDependencies": {
+		"dotenv": "^16.0.1"
+	},
+	"type": "module"
+}
