@@ -10,6 +10,7 @@
 	import DatabricksForm from './DatabricksForm.svelte';
 	import CSVForm from './CSVForm.svelte';
 	import MSSQLForm from './MSSQLForm.svelte';
+	import RESTForm from './RESTForm.svelte';
 
 	import { slide, blur } from 'svelte/transition';
 
@@ -39,7 +40,8 @@
 		{ id: 'duckdb', name: 'DuckDB', formComponent: DuckdbForm },
 		{ id: 'databricks', name: 'Databricks', formComponent: DatabricksForm },
 		{ id: 'csv', name: 'CSV', formComponent: CSVForm },
-		{ id: 'mssql', name: 'SQL Server', formComponent: MSSQLForm }
+		{ id: 'mssql', name: 'SQL Server', formComponent: MSSQLForm },
+		{ id: 'rest', name: 'REST', formComponent: RESTForm }
 	];
 
 	let selectedDatabase =

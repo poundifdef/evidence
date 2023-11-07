@@ -18,6 +18,7 @@
 		"@evidence-dev/redshift": "workspace:^",
 		"@evidence-dev/snowflake": "workspace:^",
 		"@evidence-dev/sqlite": "workspace:^",
+		"@evidence-dev/rest": "workspace:^",
 		"@evidence-dev/telemetry": "workspace:^",
 		"blueimp-md5": "2.18.0",
 		"chalk": "4.1.0",
